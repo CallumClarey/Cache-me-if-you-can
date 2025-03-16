@@ -569,8 +569,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2016891496}
   - component: {fileID: 2016891495}
+  - component: {fileID: 2016891497}
   m_Layer: 0
-  m_Name: player
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -622,6 +623,30 @@ Transform:
   - {fileID: 1480464611}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2016891497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016891494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1118e375d01e9964db65b674120f6fd1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  rb2d: {fileID: 2016891495}
+  movingRight: 0
+  movingLeft: 0
+  movingUp: 0
+  movingDown: 0
+  playerDirection: 0
+  faceR: {fileID: 1644637487}
+  faceD: {fileID: 1743490638}
+  faceL: {fileID: 1480464610}
+  faceU: {fileID: 630021371}
+  playerAnimations: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
