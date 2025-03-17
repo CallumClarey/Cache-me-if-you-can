@@ -15,8 +15,11 @@ public class ReadAnswers : MonoBehaviour
     //All script Attributes used
     //--------------------------------
     [SerializeField]
-    private List<TMP_InputField> InputFields; 
+    private List<TMP_InputField> InputFields;
+    [SerializeField]
+    private TMP_Text textBox;
     private bool hackPassed;
+    
 
     //-------------------------------------------
     //Used to check that the answers are correct
@@ -35,19 +38,28 @@ public class ReadAnswers : MonoBehaviour
             Debug.Log(userAnswer);
 
             //checks to see if the answers are true or false 
-            if (verifyAnswers(correctAnswer,userAnswer)) { hackPassed = true; }
-            else { hackPassed = false; /*Insert code to alert the player the hack has failed here*/ }
+            if (verifyAnswers(correctAnswer,userAnswer)) 
+            { 
+                hackPassed = true;
+            }
+            else 
+            { 
+                hackPassed = false;
+            }
 
+        }
+        if (hackPassed)
+        {
             //TODO: DEBUG CODE DELTE LATER
-            Debug.Log(hackPassed);
+            Debug.Log("Hack:" + hackPassed);
+            textBox.text = "Hack Passed";
 
             //sets the hacking handler class to true 
             HackingHandler.doorHack = true;
-            
 
-
-            //INSERT CODE TO SET THE PLAYER TO UNLOCK THE HACK
+            Invoke("openLevel", 4);
         }
+        else { textBox.text = "Hack Failed"; }
     }
 
     //-------------------------------------------------------
@@ -58,5 +70,10 @@ public class ReadAnswers : MonoBehaviour
     {
         if (correctAnswer == userAnswer) { return true; }
         else { return false; }
+    }
+
+    public void openLevel()
+    {
+        SceneManager.LoadScene("MainGame");
     }
 }

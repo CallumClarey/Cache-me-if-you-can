@@ -15,7 +15,7 @@ public class HackableDoor : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnClick()
     {
         Debug.Log("Openning Problem");
         SceneManager.LoadScene("HackingProblem");
