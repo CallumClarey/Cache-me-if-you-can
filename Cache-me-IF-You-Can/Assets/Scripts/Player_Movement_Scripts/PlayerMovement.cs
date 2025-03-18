@@ -34,4 +34,7 @@ public class PlayerMovement : MonoBehaviour
     {
         body.MovePosition(body.position + movement * movementSpeed * Time.fixedDeltaTime);
     }
+
+    //used inside of door script in order to get the value of vertical
+    public float getMovement() { return Input.GetAxisRaw("Vertical"); }
 }
