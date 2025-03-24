@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 346ca404bad9ed34488321df9d767127
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7160756517269122259
+    second: PoliceST_Enivroment_Tilemap_Test_0
+  - first:
+      213: 1524626396391014500
+    second: PoliceST_Enivroment_Tilemap_Test_1
+  - first:
+      213: 5381150739944700110
+    second: PoliceST_Enivroment_Tilemap_Test_2
+  - first:
+      213: 7933519645511600301
+    second: PoliceST_Enivroment_Tilemap_Test_3
+  - first:
+      213: 4312682484378934416
+    second: PoliceST_Enivroment_Tilemap_Test_4
+  - first:
+      213: 438238562888031618
+    second: PoliceST_Enivroment_Tilemap_Test_5
+  - first:
+      213: -2800612266123731067
+    second: PoliceST_Enivroment_Tilemap_Test_6
+  - first:
+      213: 25190438571044960
+    second: PoliceST_Enivroment_Tilemap_Test_7
+  - first:
+      213: -2301039398997336644
+    second: PoliceST_Enivroment_Tilemap_Test_8
+  - first:
+      213: -272436364710712982
+    second: PoliceST_Enivroment_Tilemap_Test_9
+  - first:
+      213: 8566373038512198593
+    second: PoliceST_Enivroment_Tilemap_Test_10
+  - first:
+      213: -5004604139110897572
+    second: PoliceST_Enivroment_Tilemap_Test_11
+  - first:
+      213: 4296438784746756967
+    second: PoliceST_Enivroment_Tilemap_Test_12
+  - first:
+      213: -5310456772831533089
+    second: PoliceST_Enivroment_Tilemap_Test_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 14, y: 3}
+        - {x: 12, y: 3}
+        - {x: -14, y: 3}
+        - {x: -14, y: -15}
+        - {x: 14, y: -15}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dca3e6fc1e106360800000000000000
+      internalID: 7160756517269122259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -10}
+        - {x: 6, y: -2}
+        - {x: 3, y: 2}
+        - {x: -3, y: 2}
+        - {x: -6, y: -2}
+        - {x: -6, y: -11}
+        - {x: -6, y: -14}
+        - {x: 6, y: -14}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460021431af882510800000000000000
+      internalID: 1524626396391014500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 15, y: 1}
+        - {x: 12, y: 3}
+        - {x: -12, y: 3}
+        - {x: -15, y: 1}
+        - {x: -15, y: -16}
+        - {x: 15, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec8fb316610bdaa40800000000000000
+      internalID: 5381150739944700110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -15}
+        - {x: -1, y: 10}
+        - {x: -16, y: 10}
+        - {x: -16, y: -16}
+        - {x: -3, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: da84d418516891e60800000000000000
+      internalID: 7933519645511600301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 10}
+        - {x: 1, y: 10}
+        - {x: 1, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c9476bed9b9db30800000000000000
+      internalID: 4312682484378934416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 5, y: 5}
+        - {x: 4, y: 6}
+        - {x: -4, y: 6}
+        - {x: -5, y: 5}
+        - {x: -5, y: -16}
+        - {x: 5, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d91dba6afe41600800000000000000
+      internalID: 438238562888031618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -4}
+        - {x: 6, y: 5}
+        - {x: 3, y: 9}
+        - {x: -4, y: 9}
+        - {x: -6, y: 6}
+        - {x: -6, y: -16}
+        - {x: 6, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fd7147bf93229d0800000000000000
+      internalID: -2800612266123731067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 14}
+        - {x: -16, y: 14}
+        - {x: -16, y: -5}
+        - {x: 16, y: -5}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06073c6029e795000800000000000000
+      internalID: 25190438571044960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -5}
+        - {x: -9, y: -5}
+        - {x: -9, y: 5}
+        - {x: -16, y: 5}
+        - {x: -16, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbdd598abd01110e0800000000000000
+      internalID: -2301039398997336644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: -3}
+        - {x: 0, y: -3}
+        - {x: 0.21026611, y: 3}
+        - {x: -12, y: 3}
+        - {x: -14, y: 0}
+        - {x: -14, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a69e489d19c183cf0800000000000000
+      internalID: -272436364710712982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -11}
+        - {x: 6, y: 7}
+        - {x: 3, y: 7}
+        - {x: 0, y: 3}
+        - {x: -3, y: 0}
+        - {x: -5, y: -1.5200043}
+        - {x: -5, y: -8}
+        - {x: -4, y: -13}
+        - {x: 5, y: -13}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c3d00654eed1e670800000000000000
+      internalID: 8566373038512198593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 10, y: 0}
+        - {x: 7, y: 3}
+        - {x: -5, y: 3}
+        - {x: -8, y: 0}
+        - {x: -8, y: -16}
+        - {x: 10, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5868de0d031c8ab0800000000000000
+      internalID: -5004604139110897572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_12
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -8, y: -13}
+        - {x: 0, y: -13}
+        - {x: 0, y: 8}
+        - {x: -8, y: 8}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b9a0caf4400ab30800000000000000
+      internalID: 4296438784746756967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PoliceST_Enivroment_Tilemap_Test_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 16, y: 11}
+        - {x: 4, y: 11}
+        - {x: 2, y: 9}
+        - {x: 2, y: -13}
+        - {x: 7, y: -16}
+        - {x: 16, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd72f4c73b77d46b0800000000000000
+      internalID: -5310456772831533089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8afa41acb7558004d8fbb9aaf764888b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PoliceST_Enivroment_Tilemap_Test_0: 7160756517269122259
+      PoliceST_Enivroment_Tilemap_Test_1: 1524626396391014500
+      PoliceST_Enivroment_Tilemap_Test_10: 8566373038512198593
+      PoliceST_Enivroment_Tilemap_Test_11: -5004604139110897572
+      PoliceST_Enivroment_Tilemap_Test_12: 4296438784746756967
+      PoliceST_Enivroment_Tilemap_Test_13: -5310456772831533089
+      PoliceST_Enivroment_Tilemap_Test_2: 5381150739944700110
+      PoliceST_Enivroment_Tilemap_Test_3: 7933519645511600301
+      PoliceST_Enivroment_Tilemap_Test_4: 4312682484378934416
+      PoliceST_Enivroment_Tilemap_Test_5: 438238562888031618
+      PoliceST_Enivroment_Tilemap_Test_6: -2800612266123731067
+      PoliceST_Enivroment_Tilemap_Test_7: 25190438571044960
+      PoliceST_Enivroment_Tilemap_Test_8: -2301039398997336644
+      PoliceST_Enivroment_Tilemap_Test_9: -272436364710712982
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

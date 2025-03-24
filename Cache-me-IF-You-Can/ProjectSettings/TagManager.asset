@@ -47,6 +47,9 @@ TagManager:
   - name: Enviroment
     uniqueID: 3647433705
     locked: 0
+  - name: Chairs/Others
+    uniqueID: 2094365495
+    locked: 0
   - name: Player
     uniqueID: 2085099377
     locked: 0

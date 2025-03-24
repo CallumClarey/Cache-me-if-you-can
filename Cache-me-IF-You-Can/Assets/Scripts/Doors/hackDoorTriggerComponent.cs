@@ -11,9 +11,6 @@ public class hackDoorTriggerComponent : MonoBehaviour
     //----------------------------------------------------------------
     public void OnTriggerStay2D(Collider2D collision)
     {
-        //checks to see if the player has just left the door
-        if (this.GetComponent<doorFunctionComponent>().passedThrough) { return; };
-
         GameObject collided = collision.gameObject;
 
         //checks to see if the object is the player
