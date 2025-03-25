@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0db681560bbfb48409d9fafd8fb1f829
+guid: 28061c6fb71b7f04899c1d019d4be163
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7847694906823864611
-    second: Hacking_ButtonHUD_Finalised_0
+      213: -3435044869219774067
+    second: UI_Hack_Element_Hidden_Finalised_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 20
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hacking_ButtonHUD_Finalised_0
+      name: UI_Hack_Element_Hidden_Finalised_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 128
-        height: 128
+        width: 36
+        height: 80
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 321f0ea50fc98ec60800000000000000
-      internalID: 7847694906823864611
+      spriteID: d8190ae14e44450d0800000000000000
+      internalID: -3435044869219774067
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Hacking_ButtonHUD_Finalised_0: 7847694906823864611
+      UI_Hack_Element_Hidden_Finalised_0: -3435044869219774067
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
