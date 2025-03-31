@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b0f1e5a8b976cbd46b152c6b892cc71e
+guid: 81ab6723e5d754046b89c4017bb3a0cd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6939816115577854626
-    second: UI_Hack_Element_Finalised_0
+      213: -3425891448830209030
+    second: UI_Circuitboard_Finalised_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 20
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Hack_Element_Finalised_0
+      name: UI_Circuitboard_Finalised_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 320
-        height: 80
+        width: 120
+        height: 400
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e556378f202d0bf90800000000000000
-      internalID: -6939816115577854626
+      spriteID: af35d61e0e9c470d0800000000000000
+      internalID: -3425891448830209030
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Hack_Element_Finalised_0: -6939816115577854626
+      UI_Circuitboard_Finalised_0: -3425891448830209030
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

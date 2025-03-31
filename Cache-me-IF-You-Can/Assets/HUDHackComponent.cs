@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class HUDHackComponent : MonoBehaviour
 {
@@ -7,39 +8,46 @@ public class HUDHackComponent : MonoBehaviour
     //Class Attributes
     //---------------------------
     //Hack 1 and 2 Attributes
-    [SerializeField]
-    private GameObject Hack1;
-    [SerializeField]
-    private GameObject Hack2;
+    public GameObject Hack1;
+    public GameObject Hack2;
+
+    //On and off sprites
+    public Sprite OffSprite;
+    public Sprite OnSprite;
+    public Sprite NullSprite;
 
     //Value used for the damping animation
     [SerializeField]
-    private float _Damping; 
+    private float _Damping;
 
-    //Used for the scale of the animation
-    private Vector3 _MaxScale;
-    private Vector3 _MinScale;
+    private Bounds xBounds;
 
-    //used for the vector positions
-    private float _MinPosX;
-    private float _MaxPosX;
 
+    bool go = false;
 
     private void Start()
     {
-        //sets the attributes of the scales
-        _MaxScale = Hack1.transform.localScale;
-        _MinScale = Hack2.transform.localScale;
-
-        //sets the attribute of the postions
-        _MaxPosX= Hack1.transform.localPosition.x;
-        _MinPosX = Hack2.transform.localPosition.x;
+        xBounds = Hack1.GetComponent<MeshRenderer>().bounds;
+        go = false;
     }
+
     // Update is called once per frame
     void Update()
     {
-        Hack1.transform.localPosition = Vector3.Slerp(Hack1.transform.localPosition,new Vector3(_MinPosX, Hack1.transform.localPosition.y, 0),Time.deltaTime / _Damping);
-        Hack1.transform.localScale = Vector3.Lerp(Hack1.transform.localScale,_MinScale,Time.deltaTime / _Damping);
+        
+        if (Input.GetKeyDown("space"))
+        {
+            go = true;
+            Hack1.GetComponent<Image>().sprite = OffSprite;
+        }
 
+        if (go)
+        {
+            Debug.Log("Started");
+            //float _damperClamped = Mathf.Clamp(Time.deltaTime / _Damping, 0.05f, _Damping);
+            //Hack1.transform.localPosition = Vector3.Lerp(Hack1.transform.localPosition, new Vector3(_MinPosX, 0, 0), Time.deltaTime / _Damping);
+            //Vector3 finalLocation = new(,,,);
+           // Hack1.transform.localPosition = Vector3.Lerp(Hack1.transform.localPosition,);
+        }
     }
 }

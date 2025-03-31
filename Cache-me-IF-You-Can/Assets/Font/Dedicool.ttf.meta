@@ -1,18 +1,18 @@
 fileFormatVersion: 2
-guid: 632f73f87c6fe274688aac2a0f41d788
+guid: 969f6661e78c5ba4aa0bb68eb97520a7
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
-  fontSize: 16
+  fontSize: 12
   forceTextureCase: -2
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Medodica
+  - Dedicool
   fallbackFontReferences: []
   customCharacters: 
-  fontRenderingMode: 0
+  fontRenderingMode: 2
   ascentCalculationMode: 1
   useLegacyBoundsCalculation: 0
   shouldRoundAdvanceValue: 1
