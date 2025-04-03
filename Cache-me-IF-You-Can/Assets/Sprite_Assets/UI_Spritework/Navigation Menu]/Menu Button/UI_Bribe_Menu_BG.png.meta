@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 81ab6723e5d754046b89c4017bb3a0cd
+guid: 0f3560c5e418c4741a02cea460757d9f
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3425891448830209030
-    second: UI_Circuitboard_Finalised_0
+      213: -1711021669068294453
+    second: UI_Bribe_Menu_BG_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,9 +49,9 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 0
+  alignment: 7
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: UI_Circuitboard_Finalised_0
+      name: UI_Bribe_Menu_BG_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 120
-        height: 400
+        width: 200
+        height: 120
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af35d61e0e9c470d0800000000000000
-      internalID: -3425891448830209030
+      spriteID: bc6303c7bda3148e0800000000000000
+      internalID: -1711021669068294453
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      UI_Circuitboard_Finalised_0: -3425891448830209030
+      UI_Bribe_Menu_BG_0: -1711021669068294453
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

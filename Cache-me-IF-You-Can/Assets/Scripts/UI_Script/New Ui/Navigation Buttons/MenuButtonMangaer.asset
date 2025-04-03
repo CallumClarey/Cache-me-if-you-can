@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031be63bdff84c647b2d2e28e5cf7060, type: 3}
+  m_Name: MenuButtonMangaer
+  m_EditorClassIdentifier: 
+  normalSprite: {fileID: -1264175358423346118, guid: de84a5934ef130945b70fbe7e1d481bf, type: 3}
+  hoveredSprite: {fileID: -4877164936040603119, guid: de84a5934ef130945b70fbe7e1d481bf, type: 3}
+  pressedSprite: {fileID: -903863629816488402, guid: de84a5934ef130945b70fbe7e1d481bf, type: 3}

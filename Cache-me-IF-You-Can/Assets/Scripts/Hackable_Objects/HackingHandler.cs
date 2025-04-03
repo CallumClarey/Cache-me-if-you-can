@@ -6,10 +6,4 @@ public class HackingHandler : MonoBehaviour
     public static bool doorHack;
     [SerializeField]
     public static bool cameraHack;
-
-    // Update is called once per frame
-    void Update()
-    {
-        Debug.Log("DoorHack: " + doorHack);
-    }
 }

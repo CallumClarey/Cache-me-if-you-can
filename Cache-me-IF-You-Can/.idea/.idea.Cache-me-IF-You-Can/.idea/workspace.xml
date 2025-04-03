@@ -5,7 +5,61 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2768f752-a477-45a0-bcdb-6f6ce10677fb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/New Sprite.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/New Sprite/24x24 Character LV1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/New Sprite/24x24 Character LV1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/Player.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/Player.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/PlayerWalk_Down.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/PlayerWalk_Down.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/PlayerWalk_Left.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/PlayerWalk_Left.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/PlayerWalk_Right.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/PlayerWalk_Right.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/PlayerWalk_Up.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/PlayerWalk_Up.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/Player_Idle.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Animation/Player_Idle.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Player_Idle1_Finalised.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Player_Idle1_Finalised.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Player_Walk_Finalised.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/OG/Player_Walk_Finalised.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Cache-me-IF-You-Can/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cache-me-IF-You-Can/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/Dedicool SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/Dedicool SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hackable_Objects/HackingHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Hackable_Objects/HackingHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/ButtonEffectComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI_Script/ButtonEffectComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/WidgetDockComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/WidgetDockComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/MainMenu/MainMenuBehvaiour.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI_Script/MainMenu/MainMenuBehvaiour.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/Player.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/Player.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/PlayerWalk_Down.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/PlayerWalk_Down.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/PlayerWalk_Left.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/PlayerWalk_Left.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/PlayerWalk_Right.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/PlayerWalk_Right.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/PlayerWalk_Up.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/PlayerWalk_Up.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/Player_Idle.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Animation/Player_Idle.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Player_Idle1_Finalised.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Player_Idle1_Finalised.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Player_Walk_Finalised.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/Player_Sprites/Player_Walk_Finalised.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Menu Button.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Menu Button/UI_Button_Spritesheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Menu Button/UI_Button_Spritesheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Type1.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Type1/UI_Circuitboard_Finalised.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Type1/UI_Circuitboard_Finalised.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Type1/UI_HackDisable_Element_Finalised.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Type1/UI_HackDisable_Element_Finalised.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Type1/UI_HackOn_Element_Finalised.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Type1/UI_HackOn_Element_Finalised.png.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +71,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI_Script/ButtonEffectComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/MenuNaviScriptableObject.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -26,18 +84,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\6000.0.35f1\Editor\Unity.exe" />
@@ -91,6 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743499420893</updated>
       <workItem from="1743499420895" duration="7816000" />
+      <workItem from="1743514840610" duration="20487000" />
     </task>
     <servers />
   </component>

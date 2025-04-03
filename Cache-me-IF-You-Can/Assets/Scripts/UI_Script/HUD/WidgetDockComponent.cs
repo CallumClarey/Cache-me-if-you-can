@@ -33,7 +33,6 @@ public class WidgetDockComponent : MonoBehaviour
         }
     }
 
-
     public void DockWidget(GameObject widget)
     {
         //---------------------------------------

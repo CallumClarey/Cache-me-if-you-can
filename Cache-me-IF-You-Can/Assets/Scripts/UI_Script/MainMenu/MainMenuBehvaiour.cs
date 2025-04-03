@@ -2,7 +2,6 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 using UnityEngine.EventSystems;
-using Unity.UI;
 using System.Collections.Generic;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -20,7 +19,7 @@ public class MenuHandler : MonoBehaviour
     //Game Objet referance to the canvas stored in the settings menu
     [SerializeField]
     private GameObject settingsMenu;
-    //gameobject referance the main menu
+    //game  object referance the main menu
     [SerializeField]
     private GameObject mainMenu;
 
