@@ -1,31 +1,41 @@
 using UnityEngine;
-using UnityEngine.UI;
 
 public class HackingInteraction : MonoBehaviour
 {
-    public GameObject hackingUIPanel; // Assign in Inspector
+    public GameObject hackingUIPanel;
+
+    void OnEnable()
+    {
+        HackEvents.OnTargetSelected += OpenHackingUI;
+    }
+
+    void OnDisable()
+    {
+        HackEvents.OnTargetSelected -= OpenHackingUI;
+    }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0)) // Left Click
+        if (Input.GetMouseButtonDown(0))
         {
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit2D hit = Physics2D.Raycast(Camera.main.ScreenToWorldPoint(Input.mousePosition), Vector2.zero);
 
             if (hit.collider != null && hit.collider.CompareTag("Hackable"))
             {
-                OpenHackingUI();
+                HackEvents.TriggerTargetSelected(hit.collider.gameObject);
             }
         }
     }
 
-    void OpenHackingUI()
+    void OpenHackingUI(GameObject target)
     {
-        hackingUIPanel.SetActive(true); // Show UI
+        hackingUIPanel.SetActive(true);
+        Debug.Log($"Selected target: {target.name}");
     }
 
     public void CloseHackingUI()
     {
-        hackingUIPanel.SetActive(false); // Hide UI
+        hackingUIPanel.SetActive(false);
     }
 }
+
