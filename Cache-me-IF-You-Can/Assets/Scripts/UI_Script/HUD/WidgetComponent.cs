@@ -54,7 +54,7 @@ public class WidgetComponent : MonoBehaviour, IBeginDragHandler, IEndDragHandler
         GraphicRaycast();
 
         //checks to see if it has found a dock if not sets it to the start point
-        if (!readRaycast())
+        if (!ReadRaycast())
         {
             transform.SetParent(startParent);
             Debug.Log(startParent);
@@ -73,7 +73,7 @@ public class WidgetComponent : MonoBehaviour, IBeginDragHandler, IEndDragHandler
         Raycast.Raycast(ped, hitResults);
     }
 
-    private bool readRaycast()
+    private bool ReadRaycast()
     {
         //-----------------------------------------------------------
         //checks the tag of the obj to see if is a dock or a widget
@@ -81,10 +81,10 @@ public class WidgetComponent : MonoBehaviour, IBeginDragHandler, IEndDragHandler
         for (int i = 0; i < hitResults.Count; i++)
         {
             //sets the game object to the hit result
-            GameObject Obj = hitResults[i].gameObject;
+            GameObject obj = hitResults[i].gameObject;
 
             //checks to find a dock
-            if (Obj.gameObject.tag == "Dock")
+            if (obj.gameObject.CompareTag("Dock"))
             {
                 int compareInt = i - 2;
 
@@ -93,17 +93,17 @@ public class WidgetComponent : MonoBehaviour, IBeginDragHandler, IEndDragHandler
                 if (compareInt > - 1)
                 {
                     //calls the function for the dock and then passes in the 2 widgets above it
-                    Obj.GetComponent<WidgetDockComponent>().SwapWidgets(hitResults[i - 2].gameObject, hitResults[i - 1].gameObject);
+                    obj.GetComponent<WidgetDockComponent>().SwapWidgets(hitResults[i - 2].gameObject, hitResults[i - 1].gameObject);
                     //clears the list of hits
                     hitResults.Clear();
                 }
                 else //runs code for docking to an empty widget
                 {
                     //calls the dock widget function on the dock
-                    Obj.GetComponent<WidgetDockComponent>().DockWidget(gameObject);
+                    obj.GetComponent<WidgetDockComponent>().DockWidget(gameObject);
 
                     //set the start parent to the 
-                    startParent = Obj.GetComponent<RectTransform>().parent;
+                    startParent = obj.GetComponent<RectTransform>().parent;
                     //clear the results list
                     hitResults.Clear();
                     return true;
@@ -118,15 +118,15 @@ public class WidgetComponent : MonoBehaviour, IBeginDragHandler, IEndDragHandler
     public bool readHitList()
     {
         GraphicRaycast();
-        return hitResults[0].gameObject.tag == "Dock";
+        return hitResults[0].gameObject.CompareTag("Dock");
     }
 
     //setter for the start parent
-    public void setStartParent(GameObject parent)
+    public void SetStartParent(GameObject parent)
     {
         startParent = parent.transform;
     }
-    public GameObject getStartParent()
+    public GameObject GetStartParent()
     {
         return startParent.gameObject;
     }

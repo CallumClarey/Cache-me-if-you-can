@@ -46,7 +46,7 @@ public class WidgetDockComponent : MonoBehaviour
         // Store the block in the slot's currentBlock
         childWidget = widget.gameObject;
         //refers back to the widget Comp then sets the start parent to the new parent dock
-        widget.GetComponent<WidgetComponent>().setStartParent(this.gameObject);
+        widget.GetComponent<WidgetComponent>().SetStartParent(this.gameObject);
 
     }
 
@@ -58,10 +58,10 @@ public class WidgetDockComponent : MonoBehaviour
         WidgetComponent dockedWidgetComp = dockedWidget.GetComponent<WidgetComponent>();
 
         //sets the start parent of the currently dragged widget
-        dockedWidgetComp.setStartParent(draggingWidgetComp.getStartParent());
+        dockedWidgetComp.SetStartParent(draggingWidgetComp.GetStartParent());
 
         //parents the currently docked widget to dragged widgets parent
-        dockedWidget.gameObject.transform.SetParent(dockedWidgetComp.getStartParent().transform);
+        dockedWidget.gameObject.transform.SetParent(dockedWidgetComp.GetStartParent().transform);
         dockedWidget.transform.localPosition = Vector3.zero;
 
         //calls the function to dock the dragging widget

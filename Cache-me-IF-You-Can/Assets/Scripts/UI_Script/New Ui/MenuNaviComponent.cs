@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 /// <summary>
@@ -5,10 +6,17 @@ using UnityEngine;
 /// </summary>
 public class MenuNaviComponent : MonoBehaviour
 {
+    private MenuEventsScriptable MenuEvents;
     //Game object references to the two menu states
+    public GameObject menuSystem;
     public GameObject hackMenu;
     public GameObject bribeMenu;
-    
+
+    private void OnEnable()
+    {
+       
+    }
+
     //-------------------------------------
     //Code used to handle menu behaviour
     //-------------------------------------
@@ -41,5 +49,5 @@ public class MenuNaviComponent : MonoBehaviour
         CloseMenu();
     }
     //closes the menu fully 
-    private void CloseMenu() { gameObject.SetActive(false); }
+    private void CloseMenu() { menuSystem.SetActive(false); }
 }
