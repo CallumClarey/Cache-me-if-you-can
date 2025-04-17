@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723f3f0916089a24d80301d01595452a, type: 3}
+  m_Name: Camera_Hack
+  m_EditorClassIdentifier: 
+  hackName: Camera_Hack
+  description: Hack for the camera
+  draggablePrefabs:
+  - {fileID: 4105692984141099593, guid: 14c5758ab48358f4bad3b7be6d944e0f, type: 3}
+  - {fileID: 6920123423467717561, guid: 6a6685aca09a3384f83f4ee64a34218b, type: 3}
+  dropSlotLayoutPrefab: {fileID: 0}
