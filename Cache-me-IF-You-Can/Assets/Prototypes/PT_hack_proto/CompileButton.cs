@@ -1,11 +1,15 @@
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class CompileButton : MonoBehaviour
 {
     public Button compileButton;
     public DropSlot[] dropSlots;
     public GameObject targetObject;
+
+    [Header("UI")]
+    public TMP_Text outputText; // <-- Reference to TMP text output
 
     public enum HackAction
     {
@@ -28,10 +32,11 @@ public class CompileButton : MonoBehaviour
         if (currentAction != HackAction.None)
         {
             HackEvents.TriggerHackCompiled(targetObject, currentAction);
+            ShowHackOutput(currentAction);
         }
         else
         {
-            Debug.Log("Invalid hack combination.");
+            ShowHackOutput(HackAction.None);
         }
     }
 
@@ -48,5 +53,22 @@ public class CompileButton : MonoBehaviour
             }
         }
         return HackAction.None;
+    }
+
+    void ShowHackOutput(HackAction action)
+    {
+        switch (action)
+        {
+            case HackAction.Overheat:
+                outputText.text = " Overheat initiated! Target is overheating.";
+                break;
+            case HackAction.TurnOff:
+                outputText.text = " Power down successful! Target turned off.";
+                break;
+            case HackAction.None:
+            default:
+                outputText.text = " Hack failed. Invalid code block combination.";
+                break;
+        }
     }
 }
