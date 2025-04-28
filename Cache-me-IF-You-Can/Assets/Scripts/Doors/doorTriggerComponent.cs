@@ -4,7 +4,7 @@ using UnityEngine;
 /// Used to handle normal door collision 
 /// Note: Requires doorFunctionComponent
 /// </summary>
-public class doorTriggerComponent : MonoBehaviour
+public class DoorTriggerComponent : MonoBehaviour
 {
     public void OnTriggerStay2D(Collider2D collision)
     {
@@ -12,13 +12,13 @@ public class doorTriggerComponent : MonoBehaviour
         GameObject collided = collision.gameObject;
 
         //checks to see if the object is the player
-        if (collision.gameObject.tag == "Player") 
+        if (collision.gameObject.CompareTag("Player")) 
         { 
-            this.GetComponent<doorFunctionComponent>().playerDoorTrigger(collided); 
+            GetComponent<DoorFunctionComponent>().PlayerDoorTrigger(collided); 
         }
 
         //used to handle any NPC interacting with a door
-        else if (collision.gameObject.tag == "NPC")
+        else if (collision.gameObject.CompareTag("NPC"))
         {
             //Insert code for NPC here
         }

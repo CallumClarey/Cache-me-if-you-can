@@ -18,8 +18,8 @@ public class MenuEvents : MonoBehaviour
     //-----------------------------------------
     //methods called to invoke the event
     //------------------------------------------
-    private void OnWindowOpenInvoke(GameObject windowObj) => OnWindowOpen?.Invoke(windowObj);
-    private void OnWindowCloseInvoke(GameObject windowObj) => OnWindowClose?.Invoke(windowObj);
+    public void OnWindowOpenInvoke(GameObject windowObj) => OnWindowOpen?.Invoke(windowObj);
+    public void OnWindowCloseInvoke(GameObject windowObj) => OnWindowClose?.Invoke(windowObj);
     
     //------------------------------------------------------------
     //Method used to flip between the different events triggered

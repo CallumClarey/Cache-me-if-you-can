@@ -12,9 +12,11 @@ public class WindowEffectsComponent : MonoBehaviour
     private Vector3 _originalScale;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private void Start()
+    private void Awake()
     {
         _originalScale = transform.localScale;
+        //sets the scale into the minus to start so the animation functions correctly
+        transform.LeanScale(Vector3.zero, 0f).setEaseInSine();
     }
     
     //--------------------------------------
@@ -27,7 +29,6 @@ public class WindowEffectsComponent : MonoBehaviour
     
     public void WindowCloseEffect()
     {
-        Debug.Log("WindowCloseAnim");
         transform.LeanScale(Vector3.zero, scaleTime).setEaseInSine();
     }
     

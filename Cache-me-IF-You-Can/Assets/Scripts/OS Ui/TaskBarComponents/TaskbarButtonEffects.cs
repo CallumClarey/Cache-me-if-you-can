@@ -1,6 +1,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class TaskbarButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
@@ -8,13 +9,16 @@ public class TaskbarButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointe
    //--------------------------------
    //Button Sprites
    //--------------------------------
-   [SerializeField] private Sprite unOpened;
+   [SerializeField] private Sprite unopened;
    [SerializeField] private Sprite hoveredUnopened;
    [SerializeField] private Sprite opened;
    [SerializeField] private Sprite hoveredOpened;
    
    //Window the button is linked too
    [SerializeField] private GameObject linkedWindow;
+   
+   //boolean to track if the mouse is on the button
+   private bool _pointerOver = false;
    
    //----------------------------
    //Sprites to be used
@@ -30,6 +34,9 @@ public class TaskbarButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointe
       MenuEvents.Current.OnWindowOpen += SetButtonOpen;
       MenuEvents.Current.OnWindowClose += SetButtonClose;
       _imageRef = GetComponent<Image>();
+      //sets the default values
+      _normal = unopened;
+      _hovered = hoveredUnopened;
    }
 
    //-------------------------------------------
@@ -49,9 +56,11 @@ public class TaskbarButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointe
    {
       //checks to see if this is the linked window
       if (!linkedWindow.Equals(windowObject)) return;
-      _normal = unOpened;
+      _normal = unopened;
       _hovered = hoveredUnopened;
-      _imageRef.sprite = _hovered;
+      //checks to see if the pointer is over
+      _imageRef.sprite = _pointerOver ? _hovered : _normal;
+      
    }
    
    //--------------------------------------------------
@@ -59,11 +68,13 @@ public class TaskbarButtonEffects : MonoBehaviour, IPointerEnterHandler, IPointe
    //--------------------------------------------------
    public void OnPointerEnter(PointerEventData eventData)
    {
+      _pointerOver = true;
       _imageRef.sprite = _hovered;
    }
 
    public void OnPointerExit(PointerEventData eventData)
    {
+      _pointerOver = false;
       _imageRef.sprite = _normal;
    }
    

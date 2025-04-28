@@ -6,32 +6,90 @@
   <component name="ChangeListManager">
     <list default="true" id="2768f752-a477-45a0-bcdb-6f6ce10677fb" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Cache-me-IF-You-Can/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Cache-me-IF-You-Can/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Button.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dock.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dock.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Font/Dedicool SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Font/Dedicool SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/UI Prefabs/Window.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/UI Prefabs/Window.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prototypes/PT_hack_proto/HackableEffectHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prototypes/PT_hack_proto/HackableEffectHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainGame.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/WidgetComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/WidgetComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/WidgetDockComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/WidgetDockComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/MenuNaviComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/MenuNaviComponent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/MenuNaviScriptableObject.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/MenuNaviScriptableObject.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navigation Buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navigation Buttons/ButtonEventScriptableObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navigation Buttons/ButtonEventScriptableObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navigation Buttons/ButtonFunctionComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navigation Buttons/ButtonFunctionComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navigation Buttons/ButtonGraphicsComponent.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navigation Buttons/ButtonGraphicsComponent.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navigation Buttons/MenuButtonMangaer.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navigation Buttons/MenuButtonMangaer.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Navigation Menu]/Menu Button/UI_Bribe_Menu_BG.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Navigation Menu]/Menu Button/UI_Bribe_Menu_BG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Navigation Menu]/Menu Button/UI_Button_Spritesheet.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Navigation Menu]/Menu Button/UI_Button_Spritesheet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Navigation Menu]/Menu Button/UI_Hack_Menu_BG.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Navigation Menu]/Menu Button/UI_Hack_Menu_BG.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Navigation Menu]/UI_Navigation_Menu.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/Navigation Menu]/UI_Navigation_Menu.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Doors.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Doors.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Doors/doorFunctionComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Doors/doorFunctionComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Doors/doorTriggerComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Doors/doorTriggerComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Doors/hackDoorTriggerComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Doors/hackDoorTriggerComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hackable_Objects.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hackable_Objects/FieldComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hackable_Objects/FieldComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hackable_Objects/HackableDoor.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hackable_Objects/HackableDoor.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hackable_Objects/HackingHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hackable_Objects/HackingHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hackable_Objects/ReadAnswers.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Hackable_Objects/ReadAnswers.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/CustomAPIs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/CustomAPIs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/CustomAPIs/CustomDragHandler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/CustomAPIs/CustomDragHandler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/CustomAPIs/CustomUIRaycast.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/CustomAPIs/CustomUIRaycast.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents/Hack Select Button.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents/Hack Select Button.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents/Hack Select Button/ButtonHoverEffect.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents/Hack Select Button/ButtonHoverEffect.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents/Unused Scripts.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents/Unused Scripts.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents/Unused Scripts/ReadTerminalInputComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents/Unused Scripts/ReadTerminalInputComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents/Unused Scripts/TextFlashingEffectComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/HackSelectionWindowComponents/Unused Scripts/TextFlashingEffectComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/TaskBarComponents.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/TaskBarComponents.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/TaskBarComponents/TaskbarButtonEffects.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/TaskBarComponents/TaskbarButtonEffects.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/TaskBarComponents/TaskbarButtonEffects.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/TaskBarComponents/TaskbarButtonEffects.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/MenuEvents.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/MenuEvents.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/MenuEvents.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/MenuEvents.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/WindowActionComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/WindowActionComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/WindowActionComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/WindowActionComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/WindowDragHandler.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/WindowDragHandler.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/WindowEffectsComponent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/WindowEffectsComponent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/WindowEffectsComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/OS Ui/WindowComponents/WindowEffectsComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player_Movement_Scripts/FollowCameraComponent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player_Movement_Scripts/FollowCameraComponent.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/BackButtonComponnent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/BackButtonComponnent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/ButtonEffectComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/ButtonEffectComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/HoverEffectComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/HoverEffectComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/SplineAnimComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/SplineAnimComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/WidgetComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/WidgetComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/WidgetDockComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/HUD/WidgetDockComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/MainMenu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/MainMenu/MainMenuBehvaiour.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/MainMenu/MainMenuBehvaiour.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/MainMenu/MainMenuHandler.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/MainMenu/MainMenuHandler.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/MenuNavigationComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/MenuNavigationComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Menu Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Menu Animations/MenuEventsScriptable.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Menu Animations/MenuEventsScriptable.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Menu Animations/MenuSystemAnimComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Menu Animations/MenuSystemAnimComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Menu Animations/SubMenuAnimComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Menu Animations/SubMenuAnimComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/MenuControllerComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/MenuControllerComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/MenuNaviComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/MenuNaviComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navi Buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navi Buttons/ButtonEventScriptableObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navi Buttons/ButtonEventScriptableObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navi Buttons/ButtonFunctionComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navi Buttons/ButtonFunctionComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navi Buttons/ButtonGraphicsComponent.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navi Buttons/ButtonGraphicsComponent.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navi Buttons/MenuButtonMangaer.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/New Ui/Navi Buttons/MenuButtonMangaer.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UI_Script/PauseMenu.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/PT_hack/hack-back.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprite_Assets/UI_Spritework/PT_hack/hack-back.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ShaderGraphSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +189,7 @@
       <workItem from="1743791275543" duration="29853000" />
       <workItem from="1744023870205" duration="20064000" />
       <workItem from="1744123702231" duration="9906000" />
+      <workItem from="1745841923522" duration="4162000" />
     </task>
     <servers />
   </component>
